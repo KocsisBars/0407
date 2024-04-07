@@ -11,35 +11,36 @@
 <body>
     <main class="container">
         <div id="muvelet" class="row">
-            <button type="button" id="create">Create</button>
-            <button type="button" id="read">Read</button>
+            <button type="button" id="create" class="btn btn-outline-primary col-2 m-2">Create</button>
+            <button type="button" id="read" class="btn btn-outline-primary col-2 m-2">Read</button>
         </div>
 
-        <form id="dForm" method="post">
+        <form id="dForm" method="post" class="d-none">
             <div>
-                <label for="name">Név</label>
-                <input type="text" id="name">
+                <label for="name" class="form-label">Név</label>
+                <input type="text" id="name" class="form-control">
             </div>
-            <div>
-                <label for="uId">ID</label>
-                <input type="number" id="uId">
+            <div class="mb-3">
+                <label for="uId" class="form-label">ID</label>
+                <input type="number" id="uId" class="form-control">
             </div>
-            <div>
-                <label for="job">Munka</label>
-                <input type="text" id="job">
+            <div class="mb-3">
+                <label for="job" class="form-label">Munka</label>
+                <input type="text" id="job" class="form-control">
             </div>
-            <div>
-                <label for="number">Telefon szám</label>
-                <input type="number" id="number">
+            <div class="mb-3">
+                <label for="number" class="form-label">Telefon szám</label>
+                <input type="number" id="number" class="form-control">
             </div>
-            <div>
-                <button type="submit" id="uFormSubmitButton">Felvétel</button>
+            <div class="d-grid">
+                <button type="submit" id="uFormSubmitButton" class="btn btn-outline-primary">Felvétel</button>
             </div>
 
             <div id="userList">
-                <h2>Adatok betöltése...</h2>
+                <h2 class="text-center">Adatok betöltése...</h2>
             </div>
         </form>
     </main>
 </body>
+
 </html>
