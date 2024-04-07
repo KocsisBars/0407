@@ -1,0 +1,11 @@
+Endpoint URL https://retoolapi.dev/Ldd26I/data
+
+HTTP method endpoints
+GET /Ldd26I/data
+GET filter /Ldd26I/data?Name=value
+GET by id /Ldd26I/data/1
+GET paginate /Ldd26I/data?_page=2&_limit=10
+POST /Ldd26I/data
+PUT /Ldd26I/data/1
+PATCH /Ldd26I/data/1
+DELETE /Ldd26I/data/1
